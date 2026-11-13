@@ -919,3 +919,35 @@ section.in,
         transition-duration: 0.01ms !important;
     }
 }
+
+
+/* ==============================
+   DOWNLOAD RESUME BUTTON
+================================ */
+
+.hero-buttons .download-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 13px 25px;
+    border: 1px solid var(--accent);
+    border-radius: 8px;
+    background: transparent;
+    color: var(--accent);
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.hero-buttons .download-btn:hover {
+    background: var(--accent);
+    color: #ffffff;
+    transform: translateY(-4px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.hero-buttons .download-btn i {
+    font-size: 15px;
+}
